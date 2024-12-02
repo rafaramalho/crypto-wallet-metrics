@@ -1,0 +1,13 @@
+è17:57:47.647 [Test worker] ERROR ch.post.wallet.service.CryptoAssetTransformation -- Price for asset BTC is not valid, it will not be updated
+å17:57:47.656 [Test worker] ERROR ch.post.wallet.service.CryptoAssetTransformation -- Symbol for asset is not valid, it will not be updated
+å17:57:47.659 [Test worker] ERROR ch.post.wallet.service.CryptoAssetTransformation -- Symbol for asset is not valid, it will not be updated
+è17:57:47.661 [Test worker] ERROR ch.post.wallet.service.CryptoAssetTransformation -- Price for asset BTC is not valid, it will not be updated
+è17:57:47.663 [Test worker] ERROR ch.post.wallet.service.CryptoAssetTransformation -- Price for asset BTC is not valid, it will not be updated
+
+	v17:57:49.255 [Test worker] INFO ch.post.wallet.service.CoincapApi -- Calling Coincap API to fetch crypto assets null
+
+v17:57:49.302 [Test worker] INFO ch.post.wallet.service.CoincapApi -- Calling Coincap API to fetch crypto assets null
+Ñ17:57:49.877 [pool-2-thread-1] INFO ch.post.wallet.service.WalletService -- Submitted request BTC at 2024-12-02T17:57:49.877076600
+Ñ17:57:49.877 [pool-2-thread-2] INFO ch.post.wallet.service.WalletService -- Submitted request ETH at 2024-12-02T17:57:49.877076600
+Ñ17:57:49.890 [pool-3-thread-1] INFO ch.post.wallet.service.WalletService -- Submitted request XRP at 2024-12-02T17:57:49.890943900
+ñ17:57:49.891 [pool-3-thread-1] WARN ch.post.wallet.service.WalletService -- Asset not found for symbol: XRP at timestamp: 2024-12-02T17:57:49.888924

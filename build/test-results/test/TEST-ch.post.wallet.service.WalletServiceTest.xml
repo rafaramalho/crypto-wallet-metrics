@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.post.wallet.service.WalletServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-12-02T17:57:49" hostname="PT-PO130007" time="0.564">
+  <properties/>
+  <testcase name="testCalculateWalletMetrics_withEmptyInputs()" classname="ch.post.wallet.service.WalletServiceTest" time="0.52"/>
+  <testcase name="testCalculateWalletMetrics_withValidInputs()" classname="ch.post.wallet.service.WalletServiceTest" time="0.023"/>
+  <testcase name="testCalculateWalletMetrics_withMissingAsset()" classname="ch.post.wallet.service.WalletServiceTest" time="0.009"/>
+  <testcase name="testCalculatePerformancePercentage()" classname="ch.post.wallet.service.WalletServiceTest" time="0.008"/>
+  <system-out><![CDATA[17:57:49.877 [pool-2-thread-1] INFO ch.post.wallet.service.WalletService -- Submitted request BTC at 2024-12-02T17:57:49.877076600
+17:57:49.877 [pool-2-thread-2] INFO ch.post.wallet.service.WalletService -- Submitted request ETH at 2024-12-02T17:57:49.877076600
+17:57:49.890 [pool-3-thread-1] INFO ch.post.wallet.service.WalletService -- Submitted request XRP at 2024-12-02T17:57:49.890943900
+17:57:49.891 [pool-3-thread-1] WARN ch.post.wallet.service.WalletService -- Asset not found for symbol: XRP at timestamp: 2024-12-02T17:57:49.888924
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-WalletApplication<wallet>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "ch.post.wallet.WalletApplication",
+            "projectName": "wallet",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
