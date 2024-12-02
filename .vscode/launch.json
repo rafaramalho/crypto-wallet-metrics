@@ -9,6 +9,16 @@
             "projectName": "wallet",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WalletApplication<crypto-wallet-metrics>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "ch.post.wallet.WalletApplication",
+            "projectName": "crypto-wallet-metrics",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
